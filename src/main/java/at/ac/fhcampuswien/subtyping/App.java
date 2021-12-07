@@ -9,7 +9,7 @@ public class App {
         baseTypeA.method1();
         baseTypeA1.method1();
 
-        System.out.println("Results of interfaces:");
+        System.out.println("Results of interfaces and inheritance:");
         
         SubTypeD subTypeD = new SubTypeD();
         BaseTypeB baseTypeB = subTypeD;

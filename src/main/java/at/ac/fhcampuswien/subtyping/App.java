@@ -6,7 +6,6 @@ public class App {
         SubTypeC subTypeC = new SubTypeC();
         BaseTypeA baseTypeA = subTypeC;
         BaseTypeA baseTypeA1 = new SubTypeE();
-        subTypeC.method1();
         baseTypeA.method1();
         baseTypeA1.method1();
 

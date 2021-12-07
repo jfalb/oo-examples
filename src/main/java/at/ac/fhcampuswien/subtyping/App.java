@@ -26,6 +26,7 @@ public class App {
             FileOutputStream fos = new FileOutputStream("objects.dat");
             ObjectOutputStream oos = new ObjectOutputStream(fos);
             oos.writeObject(subTypeC);
+            oos.writeObject(subTypeD);
             oos.close();
         } catch (IOException e) {
             e.printStackTrace();

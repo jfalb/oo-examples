@@ -9,6 +9,8 @@ public class App {
         baseTypeA.method1();
         baseTypeA1.method1();
 
+        System.out.println("Results of interfaces:");
+        
         SubTypeD subTypeD = new SubTypeD();
         BaseTypeB baseTypeB = subTypeD;
         BaseTypeB baseTypeB1 = new SubTypeF();

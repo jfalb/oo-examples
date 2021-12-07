@@ -1,4 +1,6 @@
 package at.ac.fhcampuswien.subtyping;
 
-public class SubTypeC extends BaseTypeA {
+import java.io.Serializable;
+
+public class SubTypeC extends BaseTypeA implements Serializable {
 }

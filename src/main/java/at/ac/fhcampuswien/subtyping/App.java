@@ -1,5 +1,9 @@
 package at.ac.fhcampuswien.subtyping;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
 public class App {
 
     public static void main(String[] args) {
@@ -17,5 +21,16 @@ public class App {
 
         subTypeC.method1();
         subTypeD.method1();
+
+        try {
+            FileOutputStream fos = new FileOutputStream("objects.dat");
+            ObjectOutputStream oos = new ObjectOutputStream(fos);
+            oos.writeObject(subTypeC);
+            oos.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
     }
 }

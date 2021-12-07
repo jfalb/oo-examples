@@ -14,5 +14,8 @@ public class App {
         BaseTypeB baseTypeB1 = new SubTypeF();
         baseTypeB.method1();
         baseTypeB1.method1();
+
+        subTypeD.method1();
+        subTypeC.method1();
     }
 }

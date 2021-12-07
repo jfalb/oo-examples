@@ -12,7 +12,6 @@ public class App {
         SubTypeD subTypeD = new SubTypeD();
         BaseTypeB baseTypeB = subTypeD;
         BaseTypeB baseTypeB1 = new SubTypeF();
-        subTypeD.method1();
         baseTypeB.method1();
         baseTypeB1.method1();
     }

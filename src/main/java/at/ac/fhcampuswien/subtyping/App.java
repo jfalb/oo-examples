@@ -30,6 +30,8 @@ public class App {
             oos.writeObject(subTypeC);
             oos.writeObject(subTypeD);
             oos.close();
+
+            System.out.println("objects written to file");
         } catch (IOException e) {
             e.printStackTrace();
         }
